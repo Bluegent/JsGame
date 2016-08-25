@@ -28,7 +28,7 @@ class PlayerSquare extends GameObject{
 			this.state.vx =0;
 	}
 	render(){
-		this.context.fillStyle = "black";
+		this.context.fillStyle = "#333333";
 		this.context.fillRect(this.state.x,this.state.y,this.width, this.height);		
 	}
 	accel(state,t,dir){
